@@ -1,0 +1,93 @@
+<!-- DEVELOPER: Nicolas Marin, IS117-003, Fall 2023 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Real Madrid</title>
+  <link rel="icon" type="image/x-icon" href="/images/logo.jpg">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+        crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="index.css">
+  <style>
+    body {
+      background-image: url('images/team1_logo.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+      background-size:  700px 600px;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <!-- Logo -->
+    <a class="navbar-brand" href="#">
+      <img src="images/logo.jpg" alt="Logo" height="30">
+    </a>
+
+    <!-- Navbar -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- Navbar Links -->
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Teams
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="team1.html">Real Madrid</a></li>
+            <li><a class="dropdown-item" href="team2.html">Barcelona</a></li>
+            <li><a class="dropdown-item" href="team3.html">Manchester City</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+    <!-- Search Bar -->
+    <form class="d-flex ms-auto">
+      <input class="form-control me-2" type="search" placeholder="Search..." aria-label="Search">
+      <button class="btn btn-outline-light" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+<!-- cards -->
+<div class="container">
+  <div class="card" style="width:500px">
+    <div class="card-body">
+      <img src="images/team1_photo.jpg" alt="Real-Madrid-Team-Photo" style="width:400px;height:250px;">
+    </div>
+  </div>
+  <div class="card" style="width:800px">
+    <div class="card-body">
+      <h4 class="card-text">Real Madrid History</h4>
+      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis sagittis sem. Sed metus
+        enim, lobortis sit amet scelerisque sed, malesuada pellentesque leo. Nullam sit amet mattis lacus, ut vulputate
+        nulla. Donec rhoncus molestie libero, nec fringilla ligula hendrerit id. Fusce id metus molestie, pretium est nec,
+        tempor elit. Vivamus sit amet gravida lectus. Morbi nec blandit ante. Maecenas at magna nec lorem fringilla lacinia.
+        Vestibulum quis est a nulla pharetra tincidunt. Curabitur molestie venenatis lorem, eu congue augue pellentesque sollicitudin.
+        Morbi blandit metus quis purus eleifend porttitor. Maecenas bibendum, ex sit amet imperdiet fermentum, sapien ligula vehicula magna, nec finibus urna lectus in est.</p>
+    </div>
+  </div>
+
+
+  <div class="space-footer"></div>
+  <footer>
+    &copy; Nicolas Marin, 2023 | Terms of Service | Privacy Statement
+  </footer>
+
+</body>
+</html>
